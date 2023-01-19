@@ -1,0 +1,440 @@
+/* Template: Juno - Multipurpose Landing Page Pack
+   Author: InovatikThemes
+   Created: Mar 2019
+   Description: Master CSS file
+*/
+/*Partial Parts have been copied from the Template and modified.*/
+
+
+h1 {
+	color: #f1f1f8;
+	font: 700 2.5rem/2.875rem "Montserrat", sans-serif;
+}
+
+h2 {
+	color: #f1f1f8;
+	font: 700 2.25rem/2.75rem "Montserrat", sans-serif;
+}
+
+h3 {
+	color: #f1f1f8;
+	font: 700 1.75rem/2.125rem "Montserrat", sans-serif;
+}
+
+h4 {
+	color: #f1f1f8;
+	font: 700 1.375rem/1.75rem "Montserrat", sans-serif;
+}
+
+h5 {
+	color: #f1f1f8;
+	font: 700 1.125rem/1.625rem "Montserrat", sans-serif;
+}
+
+h6 {
+	color: #f1f1f8;
+	font: 700 1rem/1.5rem "Montserrat", sans-serif;
+}
+
+.p {
+	color: white;
+}
+
+.p-large {
+	color: #f1f1f8;
+	font: 400 1rem/1.5rem "Open Sans", sans-serif;
+}
+
+.p-heading {
+	margin-bottom: 3.75rem;
+	text-align: center;
+}
+
+
+/*-------------------------*/
+/*     01. Navigation     */
+/*------------------------*/
+.navbar-custom {
+	background: linear-gradient(90deg, #3f197f 0%, #5131a0 100%);
+	box-shadow: 0 0.0625rem 0.375rem 0 rgba(0, 0, 0, 0.1);
+	font: 700 1rem/2rem "Montserrat", sans-serif;
+	transition: all 0.2s;
+}
+
+.navbar-custom .navbar-brand.logo-image img {
+    width: 113px;
+	height: 34px;
+	margin-bottom: 1px;
+}
+
+.navbar-custom .navbar-brand.logo-text {
+	font: 700 1.375rem/1.5rem "Montserrat", sans-serif;
+	color: #fff;
+	letter-spacing: -0.5px;
+	text-decoration: none;
+}
+
+.navbar-custom .navbar-nav {
+	margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.navbar-custom .nav-item .nav-link {
+	padding: 0 0.75rem 0 0.75rem;
+	color: #fff;
+	text-decoration: none;
+	transition: all 0.25s ease;
+}
+
+
+
+/*make collabsble*/
+.navbar-custom.top-nav-collapse {
+	padding: 0.5rem 1.5rem 0.5rem 2rem;
+	box-shadow: 0 0.0625rem 0.375rem 0 rgba(0, 0, 0, 0.1);
+	background-color: #4633af;
+}
+
+.navbar-custom.top-nav-collapse .navbar-brand.logo-text {
+	color: #fff;
+}
+
+.navbar-custom.top-nav-collapse .nav-item .nav-link {
+	color: #fff;
+}
+
+.navbar-custom.top-nav-collapse .nav-item .nav-link:hover,
+.navbar-custom.top-nav-collapse .nav-item .nav-link.active {
+	color: #00c9db;
+}
+
+.navbar-custom .nav-item .nav-link:hover,
+.navbar-custom .nav-item .nav-link.active {
+	color: #00c9db;
+}
+
+
+.navbar-custom .social-icons {
+    display: block;
+    margin-left: 0.5rem;
+}
+
+.navbar-custom .fa-stack {
+    margin-bottom: 0.188rem;
+    margin-left: 0.3755rem;
+    font-size: 0.755rem;
+}
+
+.navbar-custom .fa-stack-2x {
+    color: #00c9db;
+    transition: all 0.3s ease;
+}
+
+.navbar-custom .fa-stack-1x {
+    color: #fff;
+    transition: all 0.3s ease;
+}
+
+.navbar-custom .fa-stack:hover .fa-stack-2x {
+    color: #fff;
+}
+
+.navbar-custom .fa-stack:hover .fa-stack-1x {
+    color: #00c9db;
+}
+
+
+/*********************/
+/*    2. Header     */
+/*********************/
+.header {
+	background: linear-gradient(to bottom right, rgba(72, 72, 212, 0), rgba(241, 104, 104, 0)), url('../images/header-background2.png') center center no-repeat;
+	background-size: cover;
+}
+
+.header .header-content {
+	padding-top: 8.5rem;
+	padding-bottom: 7rem;
+	text-align: center;
+}
+
+.header .text-container {
+	margin-bottom: 3rem;
+}
+
+.header h1 {
+	margin-bottom: 1rem;
+}
+
+.header #js-rotating {
+	color: #40e0ee;
+}
+
+.header .p-large {
+	margin-bottom: 2rem;
+}
+
+.header .button-solid-lg {
+	margin-right: 0.5rem;
+	margin-bottom: 1.25rem;
+}
+
+
+/*********************/
+/*    3. Solid Button */
+/*********************/
+
+.button-solid-reg {
+	display: inline-block;
+	padding: 1.1875rem 2.125rem 1.1875rem 2.125rem;
+	border: 0.125rem solid #00c9db;
+	border-radius: 2rem;
+	background-color: #00c9db;
+	color: #fff;
+	font: 700 0.75rem/0 "Montserrat", sans-serif;
+	text-decoration: none;
+	transition: all 0.2s;
+}
+
+.button-solid-reg:hover {
+	background-color: transparent;
+	color: #00c9db;
+	text-decoration: none;
+}
+
+.button-solid-lg {
+	display: inline-block;
+	padding: 1.375rem 2.625rem 1.375rem 2.625rem;
+	border: 0.125rem solid #00c9db;
+	border-radius: 2rem;
+	background-color: #00c9db;
+	color: #fff;
+	font: 700 0.75rem/0 "Montserrat", sans-serif;
+	text-decoration: none;
+	transition: all 0.2s;
+}
+
+.button-solid-lg:hover {
+	background-color: transparent;
+	color: #00c9db;
+	text-decoration: none;
+}
+
+.button-solid-lg .fab {
+	margin-right: 0.5rem;
+	font-size: 1.25rem;
+	line-height: 0;
+	vertical-align: top;
+}
+
+
+/*----------------*/
+/*    3.Tabs      */
+/*----------------*/
+.tabs {
+	padding-top: 6.5rem;
+	padding-bottom: 4.25rem;
+	background-color: #2f2c3d;
+}
+
+.tabs h2 {
+	margin-bottom: 1.125rem;
+	text-align: center;
+}
+
+.tabs .p-heading {
+	margin-bottom: 3.125rem;
+}
+
+
+
+/* Tab Cards */
+.tabs .card {
+	border: none;
+	margin: 0.6rem;
+	background: linear-gradient(to bottom right, rgba(72, 72, 212, 0), rgba(241, 104, 104, 0)), url('../images/gradient.png') center center no-repeat;
+}
+
+.tabs .card-body {
+	padding: 1rem 1rem 1.25rem 1rem;
+	color: white;
+}
+
+.tabs .card-title {
+	margin-bottom: 0.5rem;
+}
+
+.tabs img {
+	padding-top: 0.55rem;
+	border-radius: 0.7em;
+}
+
+
+
+/**************************/
+/*     4. Statistics     */
+/**************************/
+.counter {
+	padding-top: 6.5rem;
+	padding-bottom: 5.375rem;
+	background-color: #262431;
+	text-align: center;
+}
+
+.counter #counter .cell {
+	display: inline-block;
+	width: 6.25rem;
+	margin-right: 1rem;
+	margin-left: 1rem;
+	margin-bottom: 2rem;
+}
+
+.counter #counter .counter-value {
+	color: #f1f1f8;
+	font: 700 3.5rem/4.25rem "Montserrat", sans-serif;	
+	vertical-align: middle;
+}
+
+.counter #counter .counter-info {
+	margin-bottom: 0;
+	color: #00c9db;
+	font: 400 0.875rem/1.25rem "Open Sans", sans-serif;
+	vertical-align: middle;
+}
+
+
+/*************************/
+/*     5. Features       */
+/*************************/
+.feature {
+	padding-top: 2rem;
+	padding-bottom: 2rem;
+	background-color: #262431;
+}
+
+.feature img {
+	margin-bottom: 3.5rem;
+	border-radius: 0.6em;
+}
+
+.feature h3 {
+	margin-bottom: 1.125rem;
+}
+
+.feature p {
+	color: white;
+}
+
+.feature-left {
+	padding-top: 2rem;
+	padding-bottom: 2rem;
+	background-color: #262431;
+}
+
+.feature-left img {
+	margin-bottom: 3.5rem;
+	border-radius: 0.6em;
+}
+
+.feature-left p {
+	color: white;
+}
+
+/*************************/
+/*     6. Copyright      */
+/*************************/
+.copyright {
+	padding-top: 1rem;
+	padding-bottom: 0.5rem;
+	background-color: #262431;
+	text-align: center;
+}
+
+.copyright .p-small {
+	color: #f1f1f8;
+	opacity: 0.6;
+}
+
+/**********************/
+/*     7. Footer     */
+/**********************/
+.footer {
+	padding-top: 5rem;
+	background-color: #262431;
+}
+
+.footer .footer-col {
+	margin-bottom: 2.25rem;
+}
+
+.footer h4 {
+	margin-bottom: 1rem;
+}
+
+.footer p {
+	color: white;
+}
+
+.footer .list-unstyled .fas {
+	color: #00c9db;
+	font-size: 0.5rem;
+	line-height: 1.375rem;
+}
+
+.footer .list-unstyled .media-body {
+	color: white;
+	margin-left: 0.625rem;
+}
+
+/*****************************/
+/*     8. Media Queries     */
+/*****************************/	
+@media (max-width: 365px) {
+	.header h1 {
+		font: 700 1.5rem/1.875rem "Montserrat", sans-serif;
+	}
+	.navbar-custom img {
+		width: 25px;
+		height: 25px;
+		margin-bottom: 1px;
+	}
+
+	.navbar-custom .navbar-brand.logo-text {
+		font: 700 0.975rem/0.75rem "Montserrat", sans-serif;
+		padding: 0rem;
+	}
+
+	.navbar-toggler{
+		font-size: 0.7rem;
+	}
+}
+@media (max-width: 768px) {
+	img{
+		width: 90%;
+		height: auto;
+	}
+	.button-solid-lg {
+		display: block;
+		margin-bottom: 1rem;
+	}
+
+	.navbar-custom.top-nav-collapse {
+		padding: 0.5rem 0.5rem 0.5rem 0.5rem;
+	}
+
+	.tabs img {
+		display: none;
+		border-radius: 0.7em;
+	}
+
+	.header img {
+		display: none;
+	}
+}
+
+@media (max-width: 991px) {
+	.tabs img {
+		display: none;
+		border-radius: 0.7em;
+	}
+}
